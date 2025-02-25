@@ -1,7 +1,7 @@
-package service;
+package com.javacode.service;
 
-import DAO.UserDao;
-import model.User;
+import com.javacode.DAO.UserDao;
+import com.javacode.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

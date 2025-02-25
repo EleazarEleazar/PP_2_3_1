@@ -1,4 +1,4 @@
-package config;
+package com.javacode.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -19,7 +19,7 @@ import java.util.Properties;
 @Configuration
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
-@ComponentScan(basePackages = "java")
+@ComponentScan(basePackages = "com.javacode")
 public class AppConfig {
 
     private final Environment env;

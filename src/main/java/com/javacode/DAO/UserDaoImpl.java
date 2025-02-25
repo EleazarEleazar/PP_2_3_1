@@ -1,6 +1,6 @@
-package DAO;
+package com.javacode.DAO;
 
-import model.User;
+import com.javacode.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

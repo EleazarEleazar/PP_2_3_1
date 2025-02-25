@@ -1,17 +1,17 @@
-package service;
+package com.javacode.DAO;
 
-import model.User;
+import com.javacode.model.User;
 
 import java.util.List;
 
-public interface UserService {
+public interface UserDao {
     List<User> getUsersList();
-
-    User getUser(int id);
 
     void addUser(User user);
 
     void updateUser(User user);
 
     void deleteUser(int id);
+
+    User getUser(int id);
 }

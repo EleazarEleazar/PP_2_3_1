@@ -1,10 +1,10 @@
-package controller;
+package com.javacode.controller;
 
-import model.User;
+import com.javacode.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import service.UserService;
+import com.javacode.service.UserService;
 
 @Controller
 @RequestMapping
