@@ -1,4 +1,4 @@
-package com.javacode.DAO;
+package com.javacode.dao;
 
 import com.javacode.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
